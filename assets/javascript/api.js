@@ -69,7 +69,7 @@ $(document).ready(function(){
     };
 
 // click event of buttons
-    $(".tvShows").on("click",function(){
+    $("#AddButtons").on("click",".tvShows",function(event){
       var tvShowName = $(this).attr("data-name");
       fetchData(tvShowName);
     });	
