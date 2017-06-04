@@ -31,7 +31,7 @@ $(document).ready(function(){
 // Fetch Data from the API and add to html
     fetchData = function(SearchCategory){
         $("#imagesGoHere").empty();
-        //$("")
+        $("#HeadingSelected").text(SearchCategory);
         queryURL = "https://api.giphy.com/v1/gifs/search?q=" + SearchCategory +"&api_key=" + APIKey;
         $.ajax({
           url : queryURL,
