@@ -1,0 +1,46 @@
+    #wrapper{
+      min-height : 100%;  
+      width:100%;    
+      height: auto !important;
+      margin-bottom: 10px;
+      clear:both;
+    }
+
+    #footerCSS {
+      padding: 25px;
+      position:absolute;
+      bottom:0px;
+      margin:25px;
+      width:100%;
+      height:60px;
+      clear:both;
+    }
+
+    #Logo{
+      margin-top:-30px;
+      font-size :200px;
+    }
+
+    body{
+     // background-image: url("../images/bg.png");
+    }
+
+  .Images{
+    //width:400px;
+    //height:400px;
+    padding :20px;
+  }
+
+   .preview{
+    border:1px dotted #efb73e;
+    //width:25%;
+    //height :450px;
+    padding:10px;
+    margin:10px;
+   }
+
+   .tvShows{
+    padding :10px;
+    margin:20px;
+    width:150px;
+   }
