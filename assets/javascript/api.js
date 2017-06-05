@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 // variables
     var APIKey = "dc6zaTOxFJmzC"; 	
-    var topics = ["Ellen Show","SNL","Tonight Show","Daily Show","The Late Show","Americas got Talet","Jimmy Kimmel Live","The Late Late Show","Last Week Tonight"];
+    var topics = ["Ellen Show","SNL","Tonight Show","Daily Show","The Late Show","Americas got Talet","Jimmy Kimmel Live","The Late Late Show","Last Week Tonight","The Colbert Report"];
     
     var queryURL;
 

@@ -1,18 +1,14 @@
+    body{
+      position:relative;
+      width:100%;
+      height:100%;
+    }
+
     #wrapper{
-      min-height : 100%;  
+      height : 100%;  
       width:100%;    
       height: auto !important;
       margin-bottom: 10px;
-      clear:both;
-    }
-
-    #footerCSS {
-      padding: 25px;
-      position:absolute;
-      bottom:0px;
-      margin:25px;
-      width:100%;
-      height:60px;
       clear:both;
     }
 
@@ -21,15 +17,11 @@
       font-size :200px;
     }
 
-    body{
-     // background-image: url("../images/bg.png");
+    .Images{
+      //width:400px;
+      //height:400px;
+      padding :20px;
     }
-
-  .Images{
-    //width:400px;
-    //height:400px;
-    padding :20px;
-  }
 
    .preview{
     border:1px dotted #efb73e;
@@ -44,3 +36,27 @@
     margin:20px;
     width:150px;
    }
+
+    #footer {
+      padding: 25px;
+      margin:50px;
+      width:100%;
+      height:60px;
+      bottom:0px;
+      position:absolute;
+    }
+
+    @media screen and (max-width: 640px) {
+      footer{
+        bottom:0px;
+        position:relative;
+      }
+    }
+
+    @media screen and (max-width: 980px) {
+      footer{
+        position:absolute;
+        bottom:0px;
+        margin:0px;
+      }
+    }
