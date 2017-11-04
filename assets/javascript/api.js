@@ -20,7 +20,7 @@ $(document).ready(function(){
               newButton.addClass("btn btn-primary");
             }
             else{
-              newButton.addClass("btn btn-default");
+              newButton.addClass("btn btn-info");
             }
             $("#AddButtons").append(newButton);
         }
