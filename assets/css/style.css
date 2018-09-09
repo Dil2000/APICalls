@@ -18,20 +18,27 @@
       margin-top:0px;
       font-size :40px;
     }
+
     h1{
       font-size:40px;
     }
+    
+    #imagesGoHere{
+      height:100%;
+      display: flex;
+      flex-wrap:wrap;
+      display: -webkit-flex; /* Safari */
+      -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    }
 
     .Images{
-      //width:400px;
-      //height:400px;
-      padding :20px;
+      width:25%;
+      height:25%;
+      padding:5px;
     }
 
    .preview{
     border:1px dotted #efb73e;
-    //width:25%;
-    //height :450px;
     padding:10px;
     margin:10px;
    }
@@ -56,6 +63,10 @@
         bottom:0px;
         position:relative;
       }
+      .Images{
+        flex:100%;
+        max-width:100%;
+      }
     }
 
     @media screen and (max-width: 980px) {
@@ -69,3 +80,4 @@
     .btn{
       font-size:14px;
     }
+

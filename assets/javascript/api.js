@@ -55,14 +55,14 @@ $(document).ready(function(){
               newEm.attr("data-state" ,"still");
 
               // Adding a div for ratings
-              var Ratings = response.rating;
-              newP = $("<div>");
-              newP.addClass("ratings");
-              newP.text("Rating : " + response.data[i].rating);
+              // var Ratings = response.rating;
+              // newP = $("<div>");
+              // newP.addClass("ratings");
+              // newP.text("Rating : " + response.data[i].rating);
 
               $("#imagesGoHere").append(newEm);
-              $("#imagesGoHere").append(newP);
-              $("#imagesGoHere").append("<hr/>");
+              // $("#imagesGoHere").append(newP);
+              // $("#imagesGoHere").append("<hr/>");
             }
           }
         });
